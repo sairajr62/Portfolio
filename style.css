@@ -1,0 +1,369 @@
+/*Html*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+/*Navigation Bar*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    opacity: 1.2;
+    z-index: 99;
+}
+
+.logo {
+    display: flex;
+    margin-left: 9em;
+}
+
+.logo img {
+    height: 8vh;
+    width: 3vw;
+    cursor: none;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 44em;
+}
+
+.info ul {
+    display: flex;
+    gap: 20px;
+}
+
+.info li {
+    list-style: none;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 18px;
+}
+
+.info li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #50bcaa;
+}
+
+.search {
+    width: 11em;
+    border-radius: 20px;
+    margin: 25px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 1em;
+}
+
+.dark {
+    height: 2em;
+    width: 4em;
+    cursor: pointer;
+}
+
+.darkmode {
+    background-color: black;
+    color: #4bbca9;
+}
+
+/*Profile*/
+.profile {
+    display: flex;
+    justify-content: end;
+    height: 1em;
+}
+
+.profile img {
+    height: 11rem;
+    width: 11rem;
+    border-radius: 38em;
+    margin-right: 10em;
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+}
+
+.About h1 {
+    margin-top: 9em;
+    margin-left: 8em;
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    color: #50bcaa;
+}
+
+b {
+    color: #7e7ed0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20em;
+    margin-top: 20em;
+    margin-top: 24em;
+}
+
+.about h2 {
+    color: royalblue;
+    text-decoration: underline;
+    text-decoration-color: limegreen;
+}
+
+p {
+    margin-left: 12em;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+}
+
+.btn {
+    height: 2em;
+    width: 9em;
+    border-radius: 2em;
+    margin-left: 18em;
+    background-color: #30aa9a;
+}
+
+.btn :hover {
+    /* background-color: #0fe040; */
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+/* About */
+p.myself {
+    margin-left: 0em;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+/* Skills */
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    margin-left: 13em;
+    color: royalblue;
+    text-decoration: underline;
+    text-decoration-color: #30d5ba;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5vh;
+    margin-top: 10vw;
+    margin-right: 3em;
+}
+
+img.i {
+    width: 14vw;
+    border-radius: 14px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 20vw;
+    height: 20vw;
+    margin-left: 21vw;
+    font-size: 2vw;
+    font-family: "Anek Devanagari", sans-serif;
+    color: #451cb0;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6{
+    background-color:#6f746f;
+}
+
+/* Project */
+.projects h4 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 43em;
+    margin-top: 16vh;
+    color: royalblue;
+    text-decoration: underline;
+    text-decoration-color: #0fb27b;
+}
+
+.projects>.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+    gap: 4.5vh;
+    margin-right: 1em;
+}
+
+.project {
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    background-color: #3d3e42;
+    border-radius: 20px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vh;
+    transition: all ease 0.5s;
+}
+
+.project>img {
+    width: 30em;
+    height: 30em;
+}
+
+.project>.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+    height: 30vw;
+    width: 30vw;
+    background-color: #34353ba2;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+
+.overlay:hover {
+    opacity: 1.1;
+    cursor: pointer;
+}
+
+.overlay>.pro {
+    font-family: "Anek Devanagari", sans-serif;
+    margin-left: 8vh;
+    color: #0befca;
+}
+
+.overlay>.over {
+    border-radius: 20px;
+    background-color: rgb(37 207 204);
+}
+
+.overlay>.over:hover {
+    color: royalblue;
+    cursor: pointer;
+}
+
+
+
+/* Certificates */
+.certificate h4 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 43em;
+        margin-top: 16vh;
+        color: royalblue;
+        text-decoration: underline;
+        text-decoration-color: #0fb27b;
+    }
+
+.certificate>.cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10.5vh;
+    margin-top: 5vw;
+    margin-right: 1em;
+}
+
+.cf{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+    background-color: rgb(98 105 109);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cf img{
+    width: 20em;
+    height:20em;
+    border-radius: 8px;
+}
+
+p.cfinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4vh;
+    font-family:"Playfair Display", serif;
+    color: rgb(69, 28, 176);
+}
+
+/* Contact Footer */
+.con {
+    background-color: #98a8a8;
+}
+
+.con h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    margin-left: 2em;
+    color: royalblue;
+    text-decoration: none;
+}
+
+.container ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 11rem;
+    background-color: #98a8a8;
+}
+
+.container li {
+    list-style: none;
+    color: darkblue;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.729);
+}
+
+.container ul li a img {
+    width: 5em;
+    height: 2em
+}
