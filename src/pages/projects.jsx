@@ -1,13 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function projects() {
   return (
-   <>
-   <div>
-    
-   </div>
-   </>
-  )
+    <>
+      <div></div>
+    </>
+  );
 }
 
-export default projects
+export default projects;
