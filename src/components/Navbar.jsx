@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -23,20 +24,20 @@ function Navbar() {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
-        <li className='font-mono'><link to ="/"></link>Home</li>
-        <li className='font-mono'><link to ="/about"></link>About</li>
-        <li className='font-mono'><link to ="/projects"></link>Projects</li>
-        <li className='font-mono'><link to ="/contact"></link>Contact</li>
+        <li className='font-mono'><Link to ="/"></Link>Home</li>
+        <li className='font-mono'><Link to ="/about"></Link>About</li>
+        <li className='font-mono'><Link to ="/projects"></Link>Projects</li>
+        <li className='font-mono'><Link to ="/contact"></Link>Contact</li>
       </ul>
     </div>
     <a className="btn btn-ghost text-xl">S.R.</a>
   </div>
   <div className="navbar-end hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li className='font-mono'><link to ="/"></link>Home</li>
-      <li className='font-mono'><link to ="/about"></link>About</li>
-      <li className='font-mono'><link to ="/projects"></link>Project</li>
-      <li className='font-mono'><link to ="/contact"></link>Contact</li>
+      <li className='font-mono'><Link to ="/"></Link>Home</li>
+      <li className='font-mono'><Link to ="/about"></Link>About</li>
+      <li className='font-mono'><Link to ="/projects"></Link>Project</li>
+      <li className='font-mono'><Link to ="/contact"></Link>Contact</li>
     </ul>
   </div>
 </div>
