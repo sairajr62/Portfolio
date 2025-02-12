@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 function Home() {
   return (
     <>
-    <div className='text-center mt-64 font-Garamond '>
+    <div className='text-center mt-64 font-Garamond'>
       <TypeAnimation
       sequence={[
         'Hi, I Am Sairaj Rane.',
