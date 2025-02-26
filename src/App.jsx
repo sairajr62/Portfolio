@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/contact";
 import Layout from "./components/Layout/Layout";
-import Projects from "./pages/Projects";
+/*import Projects from "./pages/Projects";*/
 
 function App() {
   return (
