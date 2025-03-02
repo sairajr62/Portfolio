@@ -28,20 +28,20 @@ function Navbar() {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow "
             >
               <li className="font-mono">
-                <Link to="/"></Link>Home
+                <Link to="/">Home</Link>
               </li>
               <li className="font-mono">
-                <Link to="/about"></Link>About
+                <Link to="/about">About</Link>
               </li>
               <li className="font-mono">
-                <Link to="/projects"></Link>Projects
+                <Link to="/projects">Project</Link>
               </li>
               <li className="font-mono">
-                <Link to="/contact"></Link>Contact
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">S.R.</a>
+          <a className="btn btn-ghost text-xl pt-0">S.R.</a>
         </div>
         <div className="navbar-end hidden lg:flex lg:justify-end">
           <ul className="menu menu-horizontal px-1">
