@@ -17,7 +17,7 @@ function Home() {
           className="text-4xl"
           repeat={Infinity}
         />
-        <div className="lg:h-full flex flex-col lg:justify-center lg:items-stretch mt-8 text-center">
+        <div className="lg:h-full md:flex-row flex flex-col lg:justify-center lg:items-stretch mt-8 text-center">
           <h2 className="font-mono text-xl">I Love to Learn The New Technologies.</h2>
         </div>
         <div className="lg:h-full flex flex-row justify-end mx-10 ">
