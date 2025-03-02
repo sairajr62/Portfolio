@@ -43,19 +43,19 @@ function Navbar() {
           </div>
           <a className="btn btn-ghost text-xl">S.R.</a>
         </div>
-        <div className="navbar-end hidden lg:flex">
+        <div className="navbar-end hidden lg:flex lg:justify-end">
           <ul className="menu menu-horizontal px-1">
-            <li className="font-mono">
-              <Link to="/"></Link>Home
+            <li className="font-mono p-4 pt-0">
+              <Link to="/">Home</Link>
             </li>
-            <li className="font-mono">
-              <Link to="/about"></Link>About
+            <li className="font-mono p-4 pt-0">
+              <Link to="/about">About</Link>
             </li>
-            <li className="font-mono">
-              <Link to="/projects"></Link>Project
+            <li className="font-mono p-4 pt-0">
+              <Link to="/projects">Project</Link>
             </li>
-            <li className="font-mono">
-              <Link to="/contact"></Link>Contact
+            <li className="font-mono p-4 pt-0  ">
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>

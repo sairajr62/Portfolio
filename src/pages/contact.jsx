@@ -4,10 +4,10 @@ function contact() {
   return (
     <>
       <div>
-        <h1>Contact Me</h1>
+        <h1 className="">Contact Me</h1>
       </div>
       <div>
-        <p>Phone: 9322135816</p>
+        <p className="">Phone: 9322135816</p>
       </div>
     </>
   );

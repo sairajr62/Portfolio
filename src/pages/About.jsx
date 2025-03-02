@@ -7,12 +7,20 @@ function About() {
         <div className="text-center mt-96">
           <h2 className="font-mono font-medium">About Me</h2>
         </div>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-            doloribus, laborum cum nihil corporis optio fugit quam reprehenderit
-            alias quo natus porro nemo accusamus consequuntur sequi temporibus
-            magni explicabo? Ex?
+        <div className="w-full flex flex-row justify-center mt-16">
+          <p className="mt-8 text-center font-Garamond text-lg justify-between">
+            Hi, I'm Sairaj Sunil Rane, a passionate web developer with a strong
+            interest in building dynamic and user-friendly websites. I
+            specialize in WordPress, JavaScript, React, and MongoDB, with
+            experience in frontend technologies like HTML, CSS, and Bootstrap. I
+            enjoy exploring trending technologies and continuously improving my
+            skills. Currently, I am expanding my expertise in React, Vite, and
+            Three.js, aiming to create interactive web applications. Beyond
+            coding, I love experimenting with freelancing website development
+            and food order & delivery platforms. My goal is to create efficient
+            and scalable digital solutions that enhance user experience. Feel
+            free to check out my work on GitHub <a href="https://github.com/Sairajr62">Sairajr62</a> and connect with me
+            for collaborations!
           </p>
         </div>
       </div>
