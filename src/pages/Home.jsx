@@ -14,14 +14,20 @@ function Home() {
           ]}
           wrapper="span"
           speed={50}
-          className="text-4xl"
+          className="lg:text-4xl mr-11 md:text-xl sm:text-sm"
           repeat={Infinity}
         />
         <div className="lg:h-full md:flex-row flex flex-col lg:justify-center lg:items-stretch mt-8 text-center">
-          <h2 className="font-mono text-xl">I Love to Learn The New Technologies.</h2>
+          <h2 className="font-mono text-xl">
+            I Love to Learn The New Technologies.
+          </h2>
         </div>
-        <div className="lg:h-full flex flex-row justify-end mx-10 ">
-          <img className="h-48 w-48  object-cover" src={image} alt="Coding" />
+        <div className="lg:h-full mb-36 flex flex-row justify-end mx-10">
+          <img
+            className="h-48 w-48 md:justify-center sm:justify-center object-cover"
+            src={image}
+            alt="Coding"
+          />
         </div>
       </div>
     </>
