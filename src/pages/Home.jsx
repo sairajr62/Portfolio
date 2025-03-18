@@ -1,6 +1,16 @@
 import React from "react";
 import image from "../assets/Image.gif";
 import { TypeAnimation } from "react-type-animation";
+import About from "./About";
+
+const about = () =>{
+  return (
+    <About/>
+  )
+}
+
+
+
 function Home() {
   return (
     <>
@@ -28,6 +38,10 @@ function Home() {
             src={image}
             alt="Coding"
           />
+        </div>
+        <div>
+          <p></p>
+          <button className="" onClick={about}>Read More</button>
         </div>
         </div>
     </>
