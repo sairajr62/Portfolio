@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 function Home() {
   return (
     <>
-      <div className="lg:h-full flex flex-col lg:justify-center lg:items-stretch mt-40 text-center font-Garamond">
+        <div className="lg:h-full flex flex-col lg:justify-center lg:items-stretch mt-40 text-center font-Garamond">
         <TypeAnimation
           sequence={[
             "Hi, I Am Sairaj Rane.",
@@ -22,14 +22,14 @@ function Home() {
             I Love to Learn The New Technologies.
           </h2>
         </div>
-        <div className="lg:h-full mb-36 flex flex-row justify-end mx-10">
+        <div className="lg:h-full mb-36 flex flex-row justify-end mx-10 ">
           <img
             className="h-48 w-48 md:justify-center sm:justify-center object-cover"
             src={image}
             alt="Coding"
           />
         </div>
-      </div>
+        </div>
     </>
   );
 }
